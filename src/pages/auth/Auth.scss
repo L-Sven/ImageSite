@@ -1,0 +1,22 @@
+@import "bootstrap";
+
+.signin-body {
+  top: 30%;
+  left: 35%;
+  width: 30em;
+  word-break: normal;
+  padding: 2em;
+}
+
+.signin-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: lightblue;
+}
+
+.signin-title {
+  font-style: italic;
+  font-size: xx-large;
+  font-family: "Arial Black", Gadget, sans-serif;
+}

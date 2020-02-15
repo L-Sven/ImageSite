@@ -1,0 +1,61 @@
+$header-background-color: #fa9b48;
+$header-shadow-color: #000000;
+
+.content-col {
+  padding-right: 0 !important;
+}
+
+.header-row {
+  background-color: $header-background-color;
+  min-height: 6vh;
+  min-width: 100vw;
+  position: fixed;
+  z-index: 1;
+
+  -moz-box-shadow: inset -2px 0 10px $header-shadow-color;
+  -webkit-box-shadow: inset -2px 0 10px $header-shadow-color;
+  box-shadow: inset -2px 0 10px $header-shadow-color;
+}
+
+.content-row {
+  background-color: #fcfcfa;
+  flex: 1;
+  min-height: 100vh;
+  padding-top: 7vh;
+}
+
+.footer-row {
+  background-color: lightgrey;
+  height: 4vh;
+}
+
+.layout-base {
+  flex-direction: column;
+  height: 100%;
+}
+
+.layout-row {
+  height: 96vh;
+}
+
+.main-col {
+  width: 87%;
+}
+
+.navbar-col {
+  background-color: #404b5e;
+  transition: flex 1s ease;
+}
+
+.navbar-maximized {
+  flex: 0 0 13% !important;
+}
+
+.navbar-minimized {
+  flex: 0 0 1% !important;
+}
+
+.row,
+col {
+  margin-right: 0 !important;
+}

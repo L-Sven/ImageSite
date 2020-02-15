@@ -1,0 +1,58 @@
+.active {
+  background-color: #61698c;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.active-min {
+  background-color: #61698c;
+  border-radius: 10px;
+  display: table;
+  width: 100%;
+}
+
+.icon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.icon-min {
+  margin-right: 0.5vw;
+  margin-bottom: 0.6vh;
+  margin-left: 0.3vw;
+  margin-top: 0.5vh;
+  vertical-align: middle;
+}
+
+.navlink-item {
+  cursor: pointer;
+  overflow-x: hidden;
+  pointer-events: visible;
+  width: 80%;
+  white-space: nowrap;
+}
+
+.navlink-item:nth-child(1) {
+  border-bottom: black solid 1px;
+}
+
+.navlink-span {
+  color: white;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.nav-list {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 100%;
+}
+
+.navlink-name-span {
+  vertical-align: middle;
+}

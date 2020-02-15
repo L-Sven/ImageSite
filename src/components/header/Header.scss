@@ -1,0 +1,15 @@
+.col-menu {
+  display: flex;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 3vh;
+  height: 6vh;
+  width: 1.3vw !important;
+}
+
+.menu-div :hover {
+  color: gold;
+  cursor: pointer;
+}
